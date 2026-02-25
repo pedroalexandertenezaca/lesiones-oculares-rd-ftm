@@ -57,3 +57,16 @@ pip install -r requirements.txt
 IDRiD (Indian Diabetic Retinopathy Image Dataset)
 
 Importante: El dataset no está incluido en este repositorio. Descárguelo de [IEEE DataPort](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid).
+
+## Citación
+
+Si utiliza este trabajo, por favor cite:
+```
+Araujo, E., Punguil, J., Tenezaca, P. (2026). 
+Identificación de lesiones oculares empleando técnicas de Inteligencia Computacional.
+Tesis de Maestría, Universidad Internacional de La Rioja (UNIR).
+```
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.
