@@ -1,0 +1,48 @@
+# Data - nunca en git
+data/
+*.tif
+*.tiff
+*.jpg
+*.png
+!results/figures/*.png  # excepto imágenes de resultados
+
+# Models - los pesos son pesados
+*.pt
+*.pth
+*.h5
+*.onnx
+*.engine
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
